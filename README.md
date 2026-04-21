@@ -1,12 +1,16 @@
-# CPU Scheduler
+## Features
+- First Come First Serve (FCFS)
+- Shortest Job First (SJF)
+- (Add what your program actually implements)
 
-This project implements CPU scheduling using C.
+## Example Output
+Enter number of processes: 3  
+Enter burst times: 5 3 8  
 
-## Compile
-gcc cpu_scheduler.c -o scheduler
+Process   Waiting Time   Turnaround Time  
+P1        0              5  
+P2        5              8  
+P3        8              16  
 
-## Run
-./scheduler
-
-## Description
-This program demonstrates CPU scheduling algorithms.
+## Author
+Soumit-coder
